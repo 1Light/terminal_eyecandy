@@ -3,7 +3,6 @@ from ctypes import sizeof
 import colorama
 import random
 text = """Ashwin"""
-text = text + "\n" + "--------------------------------------"
 
 with open("/home/ashwin/gits/banner/ashwin.txt","r") as ashwin:
     aline = ashwin.read().splitlines()
